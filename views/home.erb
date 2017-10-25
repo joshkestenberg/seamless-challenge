@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Patient</title>
+    </head>
+    <body>
+        <h1>Patient Information</h1>
+        <ul>
+          <li>Name of patient: <%= @patient.name%></li>
+          <li>Organization name: <%= @patient.org%></li>
+          <li>Gender: <%= @patient.gender%></li>
+          <li>Number of conditions they have: <%= @patient.conds.length%></li>
+          <li> List of all conditions:
+            <ul>
+            <% @patient.conds.each do |cond|%>
+              <li>- <%= cond %> </li>
+            <% end %>
+            </ul>
+          </li>
+        </ul>
+    </body>
+</html>
