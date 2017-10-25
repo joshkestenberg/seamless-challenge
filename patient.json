@@ -3,13 +3,13 @@
   "id": "xcda",
   "text": {
     "status": "generated",
-    "div": "\n      \n      <p>Henry Levin the 7th</>\n    \n    </div>"
+    "div": "\n      \n     <div> <p>Henry Levin the 7th</p>\n    \n    </div>"
   },
   "identifier": {
       "use": "usual",
       "type": {
         "coding": {
-            "system": "htt://hl7.org/fhir/v2/0203",
+            "system": "http://hl7.org/fhir/v2/0203",
             "code": "MR"
         }
       },
